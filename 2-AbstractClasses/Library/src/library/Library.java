@@ -1,7 +1,32 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/* Bernice Templeman
+
+An abstract class is a class declared as abstract and used as a superclass in 
+a hierarchy of classes. 
+Abstract classes cannot be instantiated, but they can be subclassed.
+
+An abstract class may or may not include abstract methods. 
+If an abstract class includes abstract methods, those methods must be in the 
+implemented in the concrete (non-abstract) subclasses. 
+Abstract classes can have abstract subclasses that don't need to include the 
+abstract methods.
+
+Only the abstract method declaration is in the abstract class. 
+Abstract methods are instance methods with the abstract keyword in the 
+declaration.
+There is no implementation of the abstract method in the abstract class.
+
+Abstract methods can only be declared in abstract classes.
+
+The purpose of an abstract class is to be extended.
+It provides a superclass from which other classes can inherit and share a
+common design.
+You never intend to create objects of the abstract class because it is 
+general and incomplete. 
+Abstract classes only specify what is common in the subclasses.
+
+An example of an abstract class is:
+
+// This is simple example of an abstract class and subclasses. 
  */
 package library;
 
